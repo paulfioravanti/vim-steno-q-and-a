@@ -22,43 +22,43 @@ syntax match stenoQAndASetNameArrow /=>/
 " highlight stenoQAndASetNameArrow cterm=bold ctermfg=darkmagenta
 
 " Define customizable colors, ctermbg, and ctermfg values
-let g:stenoQAndANameFgColor = 'DarkYellow'
+let g:stenoQAndANameFgColor = 'darkyellow'
 let g:stenoQAndANameBgColor = 'NONE'
 let g:stenoQAndANameBold = 1
 
-let g:stenoQAndACourtRoleFgColor = 'DarkCyan'
+let g:stenoQAndACourtRoleFgColor = 'darkcyan'
 let g:stenoQAndACourtRoleBgColor = 'NONE'
 let g:stenoQAndACourtRoleBold = 1
 
-let g:stenoQAndACourtFgColor = 'DarkGreen'
+let g:stenoQAndACourtFgColor = 'darkgreen'
 let g:stenoQAndACourtBgColor = 'NONE'
 let g:stenoQAndACourtBold = 1
 
-let g:stenoQAndAWitnessFgColor = 'DarkBlue'
+let g:stenoQAndAWitnessFgColor = 'darkblue'
 let g:stenoQAndAWitnessBgColor = 'NONE'
 let g:stenoQAndAWitnessBold = 1
 
-let g:stenoQAndABylineFgColor = 'White'
-let g:stenoQAndABylineBgColor = 'Red'
+let g:stenoQAndABylineFgColor = 'white'
+let g:stenoQAndABylineBgColor = 'red'
 let g:stenoQAndABylineBold = 1
 
-let g:stenoQAndAQFgColor = 'Red'
+let g:stenoQAndAQFgColor = 'red'
 let g:stenoQAndAQBgColor = 'NONE'
 let g:stenoQAndAQBold = 1
 
-let g:stenoQAndAAFgColor = 'DarkBlue'
+let g:stenoQAndAAFgColor = 'darkblue'
 let g:stenoQAndAABgColor = 'NONE'
 let g:stenoQAndAABold = 1
 
-let g:stenoQAndASetNameFgColor = 'DarkCyan'
+let g:stenoQAndASetNameFgColor = 'darkcyan'
 let g:stenoQAndASetNameBgColor = 'NONE'
 let g:stenoQAndASetNameBold = 1
 
-let g:stenoQAndASetNameLawyerNameFgColor = 'DarkYellow'
+let g:stenoQAndASetNameLawyerNameFgColor = 'darkyellow'
 let g:stenoQAndASetNameLawyerNameBgColor = 'NONE'
 let g:stenoQAndASetNameLawyerNameBold = 1
 
-let g:stenoQAndASetNameArrowFgColor = 'DarkMagenta'
+let g:stenoQAndASetNameArrowFgColor = 'darkmagenta'
 let g:stenoQAndASetNameArrowBgColor = 'NONE'
 let g:stenoQAndASetNameArrowBold = 1
 
