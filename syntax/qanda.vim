@@ -10,17 +10,6 @@ syntax match stenoQAndASetName /Set \(PLAINTIFF_\d\+\|DEFENSE_\d\+\)/
 syntax match stenoQAndASetNameLawyerName /\(_1 \|_2 \)\@<=\((\zs[^)]*\ze)\)/
 syntax match stenoQAndASetNameArrow /=>/
 
-" highlight stenoQAndAName ctermfg=darkyellow cterm=bold
-" highlight stenoQAndACourtRole ctermfg=darkcyan cterm=bold
-" highlight stenoQAndACourt ctermfg=darkgreen cterm=bold
-" highlight stenoQAndAWitness ctermfg=darkblue cterm=bold
-" highlight stenoQAndAByline ctermfg=white ctermbg=red cterm=bold
-" highlight stenoQAndAQ ctermfg=red cterm=bold
-" highlight stenoQAndAA ctermfg=darkblue cterm=bold
-" highlight stenoQAndASetName cterm=bold ctermfg=darkcyan
-" highlight stenoQAndASetNameLawyerName ctermfg=darkyellow cterm=bold
-" highlight stenoQAndASetNameArrow cterm=bold ctermfg=darkmagenta
-
 " Define customizable colors, ctermbg, and ctermfg values
 let g:stenoQAndANameFgColor = 'darkyellow'
 let g:stenoQAndANameBgColor = 'NONE'
