@@ -4,7 +4,7 @@ This vim plugin provides some basic syntax highlighting for [Q&A][] (Question
 and Answer) transcripts. These transcripts record lines of questioning in a
 conversation involving multiple people, usually in a legal context.
 
-[![Vim Steno Q&A][Vim Steno Q&A image url]][]
+![Vim Steno Q&A][Vim Steno Q&A image url]
 
 More information about the concept of Q&A can be found at:
 
