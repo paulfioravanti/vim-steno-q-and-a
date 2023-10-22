@@ -1,14 +1,25 @@
 " Define highlighting for names, roles, bylines, Q, A, and set command
-syntax match StenoQAndAName /\v(MR\.|MRS\.|MS\.)\s+[A-Z][A-Za-z\. ]+\ze:/
-syntax match StenoQAndACourtRole /\vTHE\s+[A-Z][A-Za-z\. ]+\ze:/
-syntax match StenoQAndACourt /\vTHE COURT\ze:/
-syntax match StenoQAndAWitness /\vTHE WITNESS\ze:/
-syntax match StenoQAndAByline /\vBY(\s+[A-Z][A-Za-z\.]+)+:/
-syntax match StenoQAndAQ /\v\tQ\t/
-syntax match StenoQAndAA /\v\tA\t/
-syntax match StenoQAndASetName /Set \(PLAINTIFF_\d\+\|DEFENSE_\d\+\)/
-syntax match StenoQAndASetNameLawyerName /\(_1 \|_2 \)\@<=\((\zs[^)]*\ze)\)/
-syntax match StenoQAndASetNameArrow /=>/
+syntax match stenoQAndAName /\v(MR\.|MRS\.|MS\.)\s+[A-Z][A-Za-z\. ]+\ze:/
+syntax match stenoQAndACourtRole /\vTHE\s+[A-Z][A-Za-z\. ]+\ze:/
+syntax match stenoQAndACourt /\vTHE COURT\ze:/
+syntax match stenoQAndAWitness /\vTHE WITNESS\ze:/
+syntax match stenoQAndAByline /\vBY(\s+[A-Z][A-Za-z\.]+)+:/
+syntax match stenoQAndAQ /\v\tQ\t/
+syntax match stenoQAndAA /\v\tA\t/
+syntax match stenoQAndASetName /Set \(PLAINTIFF_\d\+\|DEFENSE_\d\+\)/
+syntax match stenoQAndASetNameLawyerName /\(_1 \|_2 \)\@<=\((\zs[^)]*\ze)\)/
+syntax match stenoQAndASetNameArrow /=>/
+
+highlight stenoQAndAName ctermfg=darkyellow cterm=bold
+highlight stenoQAndACourtRole ctermfg=darkcyan cterm=bold
+highlight stenoQAndACourt ctermfg=darkgreen cterm=bold
+highlight stenoQAndAWitness ctermfg=darkblue cterm=bold
+highlight stenoQAndAByline ctermfg=white ctermbg=red cterm=bold
+highlight stenoQAndAQ ctermfg=red cterm=bold
+highlight stenoQAndAA ctermfg=darkblue cterm=bold
+highlight stenoQAndASetName cterm=bold ctermfg=darkcyan
+highlight stenoQAndASetNameLawyerName ctermfg=darkyellow cterm=bold
+highlight stenoQAndASetNameArrow cterm=bold ctermfg=darkmagenta
 
 " Define customizable colors, ctermbg, and ctermfg values
 " let g:stenoQAndANameFgColor = 'DarkYellow'
@@ -64,13 +75,3 @@ syntax match StenoQAndASetNameArrow /=>/
 " highlight StenoQAndASetNameLawyerName ctermfg=g:stenoQAndASetNameLawyerNameFgColor ctermbg=g:stenoQAndASetNameLawyerNameBgColor cterm=bold*g:stenoQAndASetNameLawyerNameBold
 " highlight StenoQAndASetNameArrow ctermfg=g:stenoQAndASetNameArrowFgColor ctermbg=g:stenoQAndASetNameArrowBgColor cterm=bold*g:stenoQAndASetNameArrowBold
 
-highlight StenoQAndAName ctermfg=darkyellow cterm=bold
-highlight StenoQAndACourtRole ctermfg=darkcyan cterm=bold
-highlight StenoQAndACourt ctermfg=darkgreen cterm=bold
-highlight StenoQAndAWitness ctermfg=darkblue cterm=bold
-highlight StenoQAndAByline ctermfg=white ctermbg=red cterm=bold
-highlight StenoQAndAQ ctermfg=red cterm=bold
-highlight StenoQAndAA ctermfg=darkblue cterm=bold
-highlight StenoQAndASetName cterm=bold ctermfg=darkcyan
-highlight StenoQAndASetNameLawyerName ctermfg=darkyellow cterm=bold
-highlight StenoQAndASetNameArrow cterm=bold ctermfg=darkmagenta
