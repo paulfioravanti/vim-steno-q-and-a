@@ -64,13 +64,13 @@ let g:stenoQAndASetNameArrowBold = 1
 
 " Highlighting settings for names, roles, and bylines
 " Apply customizable colors, ctermbg, and ctermfg values
-execute 'highlight stenoQAndAName ctermfg=' . g:stenoQAndANameFgColor . ' ctermbg=' . g:stenoQAndANameBgColor . ' cterm=bold*' . g:stenoQAndANameBold
-execute 'highlight stenoQAndACourtRole ctermfg=' . g:stenoQAndACourtRoleFgColor . ' ctermbg=' . g:stenoQAndACourtRoleBgColor . ' cterm=bold*' . g:stenoQAndACourtRoleBold
-execute 'highlight stenoQAndACourt ctermfg=' . g:stenoQAndACourtFgColor . ' ctermbg=' . g:stenoQAndACourtBgColor . ' cterm=bold*' . g:stenoQAndACourtBold
-execute 'highlight stenoQAndAWitness ctermfg=' . g:stenoQAndAWitnessFgColor . ' ctermbg=' . g:stenoQAndAWitnessBgColor . ' cterm=bold*' . g:stenoQAndAWitnessBold
-execute 'highlight stenoQAndAByline ctermfg=' . g:stenoQAndABylineFgColor . ' ctermbg=' . g:stenoQAndABylineBgColor . ' cterm=bold*' . g:stenoQAndABylineBold
-execute 'highlight stenoQAndAQ ctermfg=' . g:stenoQAndAQFgColor . ' ctermbg=' . g:stenoQAndAQBgColor . ' cterm=bold*' . g:stenoQAndAQBold
-execute 'highlight stenoQAndAA ctermfg=' . g:stenoQAndAAFgColor . ' ctermbg=' . g:stenoQAndAABgColor . ' cterm=bold*' . g:stenoQAndAABold
-execute 'highlight stenoQAndASetName ctermfg=' . g:stenoQAndASetNameFgColor . ' ctermbg=' . g:stenoQAndASetNameBgColor . ' cterm=bold*' . g:stenoQAndASetNameBold
-execute 'highlight stenoQAndASetNameLawyerName ctermfg=' . g:stenoQAndASetNameLawyerNameFgColor . ' ctermbg=' . g:stenoQAndASetNameLawyerNameBgColor . ' cterm=bold*' . g:stenoQAndASetNameLawyerNameBold
-execute 'highlight stenoQAndASetNameArrow ctermfg=' . g:stenoQAndASetNameArrowFgColor . ' ctermbg=' . g:stenoQAndASetNameArrowBgColor . ' cterm=bold*' . g:stenoQAndASetNameArrowBold
+execute 'highlight StenoQAndAName ctermfg=' . g:stenoQAndANameFgColor . ' ctermbg=' . g:stenoQAndANameBgColor . ' cterm=bold' . g:stenoQAndANameBold
+execute 'highlight StenoQAndACourtRole ctermfg=' . g:stenoQAndACourtRoleFgColor . ' ctermbg=' . g:stenoQAndACourtRoleBgColor . ' cterm=bold' . g:stenoQAndACourtRoleBold
+execute 'highlight StenoQAndACourt ctermfg=' . g:stenoQAndACourtFgColor . ' ctermbg=' . g:stenoQAndACourtBgColor . ' cterm=bold' . g:stenoQAndACourtBold
+execute 'highlight StenoQAndAWitness ctermfg=' . g:stenoQAndAWitnessFgColor . ' ctermbg=' . g:stenoQAndAWitnessBgColor . ' cterm=bold' . g:stenoQAndAWitnessBold
+execute 'highlight StenoQAndAByline ctermfg=' . g:stenoQAndABylineFgColor . ' ctermbg=' . g:stenoQAndABylineBgColor . ' cterm=bold' . g:stenoQAndABylineBold
+execute 'highlight StenoQAndAQ ctermfg=' . g:stenoQAndAQFgColor . ' ctermbg=' . g:stenoQAndAQBgColor . ' cterm=bold' . g:stenoQAndAQBold
+execute 'highlight StenoQAndAA ctermfg=' . g:stenoQAndAAFgColor . ' ctermbg=' . g:stenoQAndAABgColor . ' cterm=bold' . g:stenoQAndAABold
+execute 'highlight StenoQAndASetName ctermfg=' . g:stenoQAndASetNameFgColor . ' ctermbg=' . g:stenoQAndASetNameBgColor . ' cterm=bold' . g:stenoQAndASetNameBold
+execute 'highlight StenoQAndASetNameLawyerName ctermfg=' . g:stenoQAndASetNameLawyerNameFgColor . ' ctermbg=' . g:stenoQAndASetNameLawyerNameBgColor . ' cterm=bold' . g:stenoQAndASetNameLawyerNameBold
+execute 'highlight StenoQAndASetNameArrow ctermfg=' . g:stenoQAndASetNameArrowFgColor . ' ctermbg=' . g:stenoQAndASetNameArrowBgColor . ' cterm=bold' . g:stenoQAndASetNameArrowBold
